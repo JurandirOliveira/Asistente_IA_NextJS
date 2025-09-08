@@ -18,7 +18,7 @@ export default function HomePage() {
   return (
     <main className="min-h-screen flex flex-col justify-between bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-100">
       {/* Hero */}
-      <section className="text-center py-16">
+      <section className="text-center py-10">
         <div className="flex-column lg:flex w-full items-center justify-center gap-5">
 <div className="w-full justify-center flex sm:w-auto">
   {/* Imagem para modo claro */}
@@ -39,9 +39,9 @@ export default function HomePage() {
   />
 </div>
           <div>
-            <h1 className="text-5xl font-bold">Assistente de IA</h1>
-            <p className="text-lg mt-2 opacity-90">Desenvolvido por Jurandir Oliveira</p>
-            <p className="text-xl font-semibold mt-4">Escolha uma funcionalidade</p>
+            <h1 className="text-4xl sm:text-5xl  font-bold">Assistente de IA</h1>
+            <p className=" text-sm sm:text-lg mt-2 opacity-90">Desenvolvido por Jurandir Oliveira</p>
+            {/* <p className="text-lg font-semibold mt-4">Escolha uma funcionalidade</p> */}
           </div>
         </div>
       </section>

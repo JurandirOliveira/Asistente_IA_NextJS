@@ -38,7 +38,7 @@ export default function FeatureCard({ title, description, icon, href }: FeatureC
           className="
             rounded-xl p-4 text-4xl flex items-center justify-center w-20 h-20
             bg-white text-blue-600
-            dark:bg-gray-700 dark:text-blue-400
+            dark:bg-gray-700 dark:text-blue-300
           "
         >
           {icon}
@@ -46,7 +46,7 @@ export default function FeatureCard({ title, description, icon, href }: FeatureC
 
         {/* Texto */}
         <div className="flex-1 text-left">
-          <h3 className="text-2xl font-bold">{title}</h3>
+          <h3 className="text-2xl dark:text-gray-100 font-bold">{title}</h3>
           {description && (
             <p className="text-blue-100 dark:text-gray-300">{description}</p>
           )}
