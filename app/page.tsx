@@ -31,7 +31,7 @@ export default function HomePage() {
   />
   {/* Imagem para modo escuro */}
   <Image
-    src="/Cerebro2.png"
+    src="/cerebro2.png"
     alt="Imagem Cérebro Digital Dark"
     width={160}
     height={160}
